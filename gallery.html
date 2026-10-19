@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Migisha's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Migisha's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-1">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Gallery</h1>
+            <p class="text-muted mt-2">A collection of my video and photos from study sessions and projects.</p>
+        </div>
+
+        <!-- Video -->
+        <section class="mb-5">
+            <h2 class="fw-bold mb-1">Self-Motivation Video</h2>
+            <p class="text-muted mb-3">
+                In this video I talk about my reasons for choosing Computer Networking,
+                my goals as a student, and what I plan to do after graduation.
+            </p>
+            <div class="video-wrapper ratio ratio-16x9">
+                <video controls preload="metadata">
+                    <source src="WhatsApp Video 2026-10-19 at 17.02.26.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </section>
+
+        <!-- Photos -->
+        <section>
+            <h2 class="fw-bold mb-1">Project Photos</h2>
+            <p class="text-muted mb-4">Some photos from my work during the semester.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="WhatsApp Image 2026-10-19 at 16.56.46.jpeg"
+                             class="gallery-img"
+                             alt="Web design workspace">
+                        <div class="card-body">
+                            <h3 class="h6 fw-bold card-title mb-1">Web Design Session</h3>
+                            <p class="card-text small text-muted">
+                                Working on a responsive web layout using HTML5, CSS3, and Bootstrap.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="WhatsApp Image 2026-10-19 at 09.01.03.jpeg"
+                             class="gallery-img"
+                             alt="Group project collaboration">
+                        <div class="card-body">
+                            <h3 class="h6 fw-bold card-title mb-1">Group Collaboration</h3>
+                            <p class="card-text small text-muted">
+                                Working with classmates on a group assignment using GitHub for version control.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="WhatsApp Image 2026-10-19 at 09.03.55.jpeg"
+                             class="gallery-img"
+                             alt="Database design work">
+                        <div class="card-body">
+                            <h3 class="h6 fw-bold card-title mb-1">Database Design</h3>
+                            <p class="card-text small text-muted">
+                                Planning an entity-relationship diagram for a database assignment before writing SQL.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Migisha Bingoma Joseph. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

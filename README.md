@@ -1,2 +1,2 @@
-# Migisha-Joseph
-My personal Website
+# mid-semester project
+personal/portfolio website development
